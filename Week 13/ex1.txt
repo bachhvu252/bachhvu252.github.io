@@ -1,0 +1,10 @@
+create a form include these element: 
+full name (input)
+email
+subscription type( radio button monthly/yearly)
+interests(check box)
+2.add file validition with this roles 
+name must be at least 3 letters 
+email must be have @ and domain 
+3.Style form with CSS Grid Layout
+4.Show success message when form is valid

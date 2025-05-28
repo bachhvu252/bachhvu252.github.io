@@ -1,0 +1,12 @@
+Create a newsletter subscription system with these requirements:
+1. Include these elements
+- Fullname(Text input)
+- Email(Text input)
+- subscription type (radio buttions: monthly/yearly)
+- interests (checkboxes)
+2. Add form validation with these rules
+- Name must be at least 3 characters
+- Email must contain @ and domain
+- At least one interests must be selected
+3. Style form with CSS Grid layout
+4. Show success message when form is valid

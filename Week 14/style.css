@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    background: white;
+}
+.navigation-bar{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    ;
+}
+
+.navigation-bar a:hover{
+    background-color: bisque;
+}
+.navigation-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}

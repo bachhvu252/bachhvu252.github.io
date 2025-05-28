@@ -1,0 +1,4 @@
+create a bookstore website navigation with these requirments:
+1. create navigation with 4 links: home, books, authors, contact
+2. add bullets between navigation items
+3. style menu with background color and padding and hover effects
