@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Newsletter Subscription System</title>
+</head>
+<body>
+    <h1>Newsletter Subscription System</h1>
+    <form id="fname">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+    </form>
+    <form id="email">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </form>
+    <form id="substype">
+        <radio id="monthly" name="substype" value="monthly">
+        <label for="monthly">Monthy</label><br>
+        <radio id="yearly" name="substype" value="yearly">
+        <label for="yearly">Yearly</label><br>
+    </form>
+    <form>
+        <label for="interests">Interests:</label><br>
+        <input type="checkbox" id="news" name="interests" value="news">
+        <label for="news">News</label><br>
+        <input type="checkbox" id="updates" name="interests" value="updates">
+        <label for="updates">Updates</label><br>
+        <input type="checkbox" id="offers" name="interests" value="offers">
+        <label for="offers">Offers</label><br>
+    </form>
+    <form id="submit">
+        <button type="submit">Submit</button>
+
+</body>
+</html>
